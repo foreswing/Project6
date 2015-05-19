@@ -1,24 +1,9 @@
 # Project Overview
 
-In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
+This project is a simple news feed application used to demonstrate automated “red/green” test scripting as outlined in lesson 6 of the Udacity front-end nano-degree program.
 
+It uses [jasmine v2.2.0] http://jasmine.github.io/2.2/introduction.html to develop the automated test scripts as required by the Udacity project 6 rubric.  I added a few additional scripts in an effort to further expand my learning in this area.  I completed all steps in the following section – 14 original requirements, plus 3 additional steps/tests.
 
-## Why this Project?
-
-Testing is an important part of the development process and many organizations practice a standard of development known as "test-driven development". This is when developers write tests first, before they ever start developing their application. All the tests initially fail and then they start writing application code to make these tests pass.
-
-Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
-
-
-## What will I learn?
-
-You will learn how to use Jasmine to write a number of tests against a pre-existing application. These will test the underlying business logic of the application as well as the event handling and DOM manipulation.
-
-
-## How will this help my career?
-
-* Writing effective tests requires analyzing multiple aspects of an application including the HTML, CSS and JavaScript - an extremely important skill when changing teams or joining a new company.
-* Good tests give you the ability to quickly analyze whether new code breaks an existing feature within your codebase, without having to manually test all of the functionality.
 
 
 # How will I complete this project?
@@ -37,3 +22,7 @@ You will learn how to use Jasmine to write a number of tests against a pre-exist
 12. Write a test that ensures when the loadFeed function is called and completes its work, there is at least a single .entry element within the .feed container. Remember, loadFeed() is asynchronous so this test wil require the use of Jasmine's beforeEach and asynchronous done() function.
 13. Write a test that ensures when a new feed is loaded by the loadFeed function that the content actually changes. Remember, loadFeed() is asynchronous.
 14. When complete - all of your tests should pass.
+15. Wrote a test that ensures all feed category URLs exactly match the items listed in the feed menu.
+16. Wrote a test that ensures all feed category names exactly match the items listed in the feed menu.
+17. Wrote a test that ensure that the initial loadFeed() entry is not null.
+
