@@ -4,7 +4,9 @@ This project is a simple news feed application used to demonstrate automated “re
 
 It uses [jasmine v2.2.0] http://jasmine.github.io/2.2/introduction.html to develop the automated test scripts as required by the Udacity project 6 rubric.  I added a few additional scripts in an effort to further expand my learning in this area.  I completed all steps in the following section – 14 original requirements, plus 3 additional steps/tests.
 
+# Steps Required to Run Application
 
+To begin the application load the index.html page.  Once loaded the header displays a menu icon on the left and the default news feed “Udacity Blog” on the right.  The news feed articles are displayed in the body of the page.  Navigate to any topic by clicking on the title for the topic you wish to review.  To visit the other news feed click on the menu button and select the desired feed.  The articles for the new feed will be displayed in the body of the new page and are accessed by clicking on the title of the desired article.  When you are done reviewing the selected news feed article simply use the browser’s “back” button to return to the news feed application. All of the news feed pages show the Jasmine test results at the bottom of page.  
 
 # How will I complete this project?
 
